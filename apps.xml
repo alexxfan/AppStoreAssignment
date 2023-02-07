@@ -1,0 +1,51 @@
+<object-stream>
+  <list>
+    <models.GameApp>
+      <developer>
+        <developerName>david </developerName>
+        <developerWebsite>david.fan</developerWebsite>
+      </developer>
+      <appName>fortnite</appName>
+      <appSize>1.0</appSize>
+      <appVersion>1.0</appVersion>
+      <appCost>1.0</appCost>
+      <ratings>
+        <models.Rating>
+          <numberOfStars>3</numberOfStars>
+          <raterName>Eve101</raterName>
+          <ratingComment>Used once, never again</ratingComment>
+        </models.Rating>
+      </ratings>
+      <isMultiplayer>true</isMultiplayer>
+    </models.GameApp>
+    <models.ProductivityApp>
+      <developer reference="../../models.GameApp/developer"/>
+      <appName>lol</appName>
+      <appSize>24.0</appSize>
+      <appVersion>1.0</appVersion>
+      <appCost>123.0</appCost>
+      <ratings>
+        <models.Rating>
+          <numberOfStars>2</numberOfStars>
+          <raterName>MarkD</raterName>
+          <ratingComment>Great App</ratingComment>
+        </models.Rating>
+      </ratings>
+    </models.ProductivityApp>
+    <models.EducationApp>
+      <developer reference="../../models.GameApp/developer"/>
+      <appName>wordle</appName>
+      <appSize>4.0</appSize>
+      <appVersion>123.0</appVersion>
+      <appCost>45.0</appCost>
+      <ratings>
+        <models.Rating>
+          <numberOfStars>0</numberOfStars>
+          <raterName>Eve101</raterName>
+          <ratingComment>Poor App</ratingComment>
+        </models.Rating>
+      </ratings>
+      <level>2</level>
+    </models.EducationApp>
+  </list>
+</object-stream>
